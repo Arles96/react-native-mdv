@@ -16,6 +16,7 @@ export default class App extends Component {
     return (
       <WebView
         source={{ uri: "https://midoctorvirtual.com/signIn" }}
+        useWebKit={true}
         style={{ marginTop: 20 }}
       />
     );
